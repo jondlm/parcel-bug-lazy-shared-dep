@@ -1,0 +1,14 @@
+{
+  "name": "parcel-bug-lazy-shared-dep",
+  "private": true,
+  "source": ["a.html", "b.html"],
+  "scripts": {
+    "dev": "parcel serve --lazy"
+  },
+  "devDependencies": {
+    "parcel": "2.9.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
